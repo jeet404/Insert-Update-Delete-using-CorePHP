@@ -1,0 +1,88 @@
+body {
+  background: linear-gradient(to bottom, #ff99cc 0%, #33ccff 100%);
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+  color: #000000;
+  background-color: #6077ff;
+  border: solid #ffffff 3px;
+  line-height: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+table {
+  font-family: verdana;
+  color: white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  border-collapse: collapse;
+  border: 4px solid #000000;
+  border-style: groove;
+}
+
+table.inner {
+  border: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 50%;
+  padding: 6px 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+  width: 20%;
+  padding: 8px 12px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+button a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  font-family: cursive;
+  background-color: #6077ff;
+  border: solid #ffffff 3px;
+  line-height: 20px;
+}
+
+.footer .cpy a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer .cpy a:hover {
+  background: black;
+  color: white;
+}
