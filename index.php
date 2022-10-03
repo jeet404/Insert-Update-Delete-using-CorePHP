@@ -9,7 +9,7 @@
 
 <body>
   <div class="title">
-    <h2>Registration Form</h2>
+    <h2>Student Registration</h2>
   </div>
   <div class="main">
     <form action="insertPage.php" method="post">
